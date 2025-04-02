@@ -55,8 +55,8 @@ FinalProject/
 ### Exercise 1 – Design a Data Warehouse Schema
 
 Task 1: Design the Dimension Table MyDimDate
-
 Field List:
+```
 dateid
 year
 month
@@ -66,25 +66,28 @@ weekday
 weekdayname
 quarter
 quartername
-
+```
 Screenshot: MyDimDate.jpg
 
 Task 2: Design the Dimension Table MyDimWaste
 Field List:
+```
 wasteid
 wastetype
-
+```
 Screenshot: MyDimWaste.jpg
 
 Task 3: Design the Dimension Table MyDimZone
 Field List:
+```
 zoneid
 zonename
-
+```
 Screenshot: MyDimZone.jpg
 
 Task 4: Design the Fact Table MyFactTrips
 Field List:
+```
 tripid
 dateid
 wasteid
